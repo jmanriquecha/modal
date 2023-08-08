@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Modal</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="text-center">Modal con CSS y JavaScrip</h1>
+            </header>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident soluta, iste facere necessitatibus
+                eveniet, quis ipsa unde adipisci sint non ratione ad ipsam quisquam repellendus cum explicabo
+                voluptatem. Temporibus, quidem.
+                Perferendis odit, iusto sint, expedita omnis est accusamus rerum delectus dolores alias ex ea
+                repudiandae? Accusantium, libero id debitis, animi eos iusto odit placeat assumenda modi sit hic sint
+                nemo?</p>
+
+            <!-- Modal button start -->
+            <button id="show-modal" class="btn btn-dark mt-50 ml-50 w-120">Abrir modal</button>
+            <!-- Modal button end -->
+
+
+            <!-- Modal start -->
+            <div id="modal" class="modal" style="display:none">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title">
+                                <h2>¿Seguro que desea eliminar?</h2>
+                            </div>
+                            <div class="modal-close" id="modal-close">x</div>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias magni culpa!
+                                Fugit, eligendi. Eveniet nesciunt quis odit impedit pariatur ut delectus sed quo fugiat,
+                                molestiae enim consequatur facere. Et!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div id="modal-cancel" class="btn">Cancelar</div>
+                            <div class="btn btn-danger">Eliminar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal end -->
+        </div>
+
+        <footer>
+            <p class="text-center">
+                <small>&copy; 2023 | Creado por: <a href="https://github.com/jmanriquecha"
+                        target="_blank">@jmanriquecha</a></small>
+            </p>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
